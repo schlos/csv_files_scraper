@@ -1,7 +1,7 @@
 import scraperwiki
 import csv
 
-url = 'google.com'
+url = 'http://tjv.pristupinfo.hr/?sort=1&page=1&download'
 
 data = scraperwiki.scrape(url)
 data = data.splitlines()
